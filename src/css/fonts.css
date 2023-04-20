@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Museo Sans Cyrl";
+    font-style: normal;
+    font-weight: 300;
+    src: local("Museo Sans Cyrl"),
+         /* Если не получилось, загрузит woff2 */
+         url("../fonts/MuseoSansCyrl-300.woff") format("woff"),
+         url("../fonts/MuseoSansCyrl-300.eot") format("eot"),
+         url("../fonts/MuseoSansCyrl-300.ttf") format("ttf");
+  }
+@font-face {
+    font-family: "Museo Sans Cyrl";
+    font-style: normal;
+    font-weight: 500;
+    src: local("Museo Sans Cyrl"),
+         /* Если не получилось, загрузит woff2 */
+         url("../fonts/MuseoSansCyrl-500.woff") format("woff"),
+         url("../fonts/MuseoSansCyrl-500.eot") format("eot"),
+         url("../fonts/MuseoSansCyrl-500.ttf") format("ttf");
+  }
+@font-face {
+    font-family: "Museo Sans Cyrl";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Museo Sans Cyrl"),
+         /* Если не получилось, загрузит woff2 */
+         url("../fonts/MuseoSansCyrl-700.woff") format("woff"),
+         url("../fonts/MuseoSansCyrl-700.eot") format("eot"),
+         url("../fonts/MuseoSansCyrl-700.ttf") format("ttf");
+  }

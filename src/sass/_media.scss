@@ -127,3 +127,127 @@
         }
     }
 }
+@media (max-width: 498px) {
+    .promo {
+        .header {
+            &__logo {
+                display: block;
+                margin: 0 auto;
+                width: auto;
+                max-width: fit-content;
+                margin-bottom: 10px;
+                img {
+                    width: 90%;
+                }
+            }
+            &__official {
+                display: inline-block;
+                text-align: left;
+            }
+            &__contacts {
+                display: inline-block;
+                text-align: right;
+                width: 48%;
+            }
+            &__phone {
+                margin-bottom: -5px;
+            }
+        }
+        &__wrapper {
+            align-items: center;
+        }
+        &__header {
+            font-size: 32px;
+            margin-bottom: 0;
+        }
+        &__subheader {
+            font-size: 16px;
+        }
+        &__icons {
+            margin-top: 50px;
+        }
+        .button_main {
+            margin-top: 55px;
+        }
+    }
+}
+@media (max-width: 433.98px) {
+    .promo {
+        &__header {
+            font-size: 28px;
+            margin-bottom: 0;
+        }
+        &__subheader {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+    }
+    .advantages {
+        .title {
+            font-size: 24px;
+        }
+    }
+}
+@media (max-width: 393.98px) {
+    .promo {
+        .header {
+            &__official {
+                font-size: 10px;
+                span {
+                    font-size: 12px;
+                }
+            }
+            &__phone {
+                font-size: 13px;
+            }
+            &__contacts {
+                .button {
+                    width: auto;
+                    padding: 0 10px;
+                    margin-top: 0;
+                }
+            }
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            margin-top: 40px;
+        }
+        &__header {
+            font-size: 22px;
+            line-height: 22px;
+        }
+        &__subheader {
+            font-size: 12px;
+            margin-bottom: 0;
+        }
+        .button_main {
+            margin-top: 45px;
+            width: auto;
+            padding: 0 15px;
+            font-size: 12px;
+        }
+        &__link {
+            font-size: 11px;
+        }
+    }
+    .advantages {
+        .title {
+            font-size: 20px;
+        }
+        &__wrapper {
+            gap: 50px;
+        }
+        &__item {
+            .subtitle {
+                margin-top: 15px;
+            }
+            .descr {
+                margin-top: 20px;
+            }
+        }
+    }
+}
